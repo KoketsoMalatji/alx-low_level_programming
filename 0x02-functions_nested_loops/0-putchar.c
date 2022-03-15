@@ -1,17 +1,23 @@
-#include "main.h"
+#include "_putchar.h"
+
 /**
- * main - prints the string "Putchar" from a character array.
- * Return: 0 on success.
+ * main - Entry Point.use only user defined variable to create output.
+ *
+ * Description: Print _putchar using predefined functions
+ *
+ * Return: 0
  */
+
 int main(void)
 {
-	char c[] = "Putchar";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
+	_putchar('P');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }

@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * main - prints the string "Main" from a character array.
- * Return: 0 on success.
+ *main - entry point.
+ *Description: program starts and ends here.
+ *Return: 0 on success.
  */
 int main(void)
 {
-	char c[] = "Main";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+char text[9] = "Main";
+int i;
+for (i = 0; i < 9; i++)
+{
+_putchar(text[i]);
+}
+_putchar('\n');
+return (0);
 }

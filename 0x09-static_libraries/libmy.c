@@ -1,5 +1,4 @@
 #include "main.h"
-#include "libmy.a"
 
 int main(void)
 {

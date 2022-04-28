@@ -1,16 +1,17 @@
 #include "main.h"
-/**
- * get_endianness - little or big endian
- * Return: 0 if big endian, 1 if little endian
- */
 
+/**
+ * get_endianness - how are numbers ordered by mag
+ *
+ * Return: int
+ */
 int get_endianness(void)
 {
-	int bit = 0x01;
+	unsigned int i = 1;
+	char *c = (char *) &i;
 
-	if (((bit << 4) & 0x1) == 0x1)
-		return (0);
-	else
+	if (*c)
 		return (1);
-
+	else
+		return (0);
 }

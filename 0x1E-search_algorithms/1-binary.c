@@ -5,7 +5,7 @@
  * @array: the array to search
  * @size: len of array
  * @value: what we search for
- *  Return: index at which value is found or -1
+ *  Return: the index at which value is found or -1
  */
 int binary_search(int *array, size_t size, int value)
 {
@@ -35,7 +35,7 @@ int binary_search(int *array, size_t size, int value)
 }
 /**
  * print_it - to print the array we are searching
- * @arr: ptr first element the array
+ * @arr: ptr to first element the array
  * @begin: [0] element
  * @end: last element to print
  */
